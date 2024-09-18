@@ -1,6 +1,6 @@
 ### Interview
 
-This aap is for intervise only students
+This is my Interview management sysyem app
 
 ### Installation
 

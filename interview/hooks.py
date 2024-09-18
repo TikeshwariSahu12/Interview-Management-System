@@ -1,7 +1,7 @@
 app_name = "interview"
 app_title = "Interview"
-app_publisher = "Tikeshwari "
-app_description = "This aap is for intervise only students"
+app_publisher = "Tikeshwari Sahu"
+app_description = "This is my Interview management sysyem app"
 app_email = "tikeshwarisahu23@navgurukul.org"
 app_license = "mit"
 
