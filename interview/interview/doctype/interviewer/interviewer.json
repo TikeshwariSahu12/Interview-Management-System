@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{interviewrs_name}",
+ "creation": "2024-09-18 12:23:29.344112",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "interviewrs_name",
+  "contact_number",
+  "position",
+  "years_of_experience",
+  "linkedin_profile"
+ ],
+ "fields": [
+  {
+   "fieldname": "interviewrs_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Interviewr's Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contact Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Select",
+   "label": "Position",
+   "options": "Senior Developer\nHR Manager\nData Initialize\nTechnical Lead\nFrontend Developer\nBackend Developer\nRecruitment Specialist"
+  },
+  {
+   "fieldname": "years_of_experience",
+   "fieldtype": "Int",
+   "label": "Years of Experience"
+  },
+  {
+   "fieldname": "linkedin_profile",
+   "fieldtype": "Data",
+   "label": "LinkedIn profile"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-18 15:30:10.582580",
+ "modified_by": "Administrator",
+ "module": "Interview",
+ "name": "Interviewer",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
